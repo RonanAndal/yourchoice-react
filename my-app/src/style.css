@@ -1,0 +1,98 @@
+.nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top:2px;
+  padding-bottom: 0.5rem;
+  color: #E33E19;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  cursor: pointer!important;
+}
+
+.active.nav-item {
+  border-top-width: 10px;
+  padding-top:0px;
+  color: black;
+}
+
+.nav-item:hover {
+  border-top: 3px solid #E33E19!important;
+  color: white;
+  padding-top:0;
+
+}
+
+.btn{
+  background-color: black;
+  color: white;
+  outline: none;
+  margin-right: 1px;
+}
+
+
+
+
+.btn:hover {
+  color:white;
+  background-color:darkslategray;
+  transition: filter 0.3s ease;
+}
+
+.center-container{
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
+
+.text-left{
+  color: whitesmoke;
+  font-family:noticia text,serif;
+  position: absolute;
+  bottom: 150px;
+  right: -400px;
+  width: 100%;
+  z-index: 999;
+}
+
+
+
+#Logo{
+  position: absolute;
+}
+
+.secondmenu{
+  color:lightgray;
+  font-size:12px;
+}
+
+.secondmenu:hover{
+  color:white;
+  cursor: pointer;
+}
+
+#Logo1{
+  background:black;
+}
+
+.center{
+  position: absolute;
+  bottom: 0px;
+  right: 1000px;
+  font-size: 70px;
+  font-family: "Times New Roman";
+  z-index: 999;
+  color: white;
+}
+
+.centerbuttons{
+  position: absolute;
+  bottom: -33px;
+  right: 1130px;
+  background-color:transparent;
+  border:none;
+}
