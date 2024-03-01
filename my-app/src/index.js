@@ -41,7 +41,7 @@ const Logo1 = () => (
 
 const CenterText = () => (
   <Col className="center">
-    <span style={{ backgroundColor: '#ffd748', padding: '5px'}}>Muay Thai</span>
+    <span style={{ backgroundColor: '#fcb814', padding: '5px'}}>Muay Thai</span>
   </Col>
 );
 
@@ -69,7 +69,7 @@ const CenterText2 = () => (
           <p>We're not only develop our own products,
             we also accept OEM orders. If you are running
             your own brand and looking for manufacturer,</p>
-          <p>we're here to help! Please don't hesitate to contact us: info@fluory.com or Quick inquiry</p>
+          <p>we're here to help! Please don't hesitate to contact us: <row className = "yellow2">info@fluory.com </row>or <row className = "yellow2">Quick inquiry</row></p>
         </Col>
       </h2>
 
@@ -89,12 +89,36 @@ const Shop2 = () => (
 
     <button className="shopItems">
 
-      <button className='btn2'><Image src="https://www.fluory.com/cdn/shop/collections/MTSF19_900x.jpg?v=1555005991" width='350px'/></button>
-      <button className='btn2'><Image src = "https://www.fluory.com/cdn/shop/collections/rashguard_900x.jpg?v=1555006364" width = '350px'/></button>
-      <button className='btn2'><Image src = "https://www.fluory.com/cdn/shop/products/Koifish_900x.jpg?v=1561218336" width = '350px'/></button>
+      <button className='btn2'>
+        <Col className = "buttonName"><p>Muay Thai</p>
+          <Col className = "yellow"><p>VIEW ALL</p></Col></Col>
+        <Col className='imagebackground'><Image src="https://www.fluory.com/cdn/shop/collections/MTSF19_900x.jpg?v=1555005991" width='350px'/></Col>
+
+      </button>
+      <button className='btn2'>
+        <Col className = "buttonName2"><p>MMA</p>
+          <Col className = "yellow"><p>VIEW ALL</p></Col></Col>
+      <Col className = "imagebackground"><Image src="https://www.fluory.com/cdn/shop/collections/rashguard_900x.jpg?v=1555006364" width='350px'/></Col>
+      </button>
+    
+      
+      <button className='btn2'>
+        <Col className = "buttonName3"><p>Jiu-Jitsu</p>
+          <Col className = "yellow"><p>VIEW ALL</p></Col></Col>
+        <Col className = "imagebackground"><Image src="https://www.fluory.com/cdn/shop/products/Koifish_900x.jpg?v=1561218336" width='350px'/>
+        </Col>
+      </button>
 
     </button>
+
+    <h2>
+
+
+
+    </h2>
   </h1>
+
+
 
 )
 
@@ -105,35 +129,56 @@ const FooterMenu = () => (
         <Col>
           Site Map
           <hr/>
-          <p>About Fluory</p>
-          <p>Muay Thai</p>
-          <p>Jiu-Jitsu</p>
-          <p>MMA</p>
-          <p>Boxing</p>
-          <p>Casual</p>
-          <p>Fitness</p>
+
+            <p>
+              <button className="btn3">About Fluory</button>
+            </p>
+            <p>
+              <button className="btn3">Muay Thai</button>
+            </p>
+            <p>
+              <button className="btn3">Jiu-Jitsu</button>
+            </p>
+            <p>
+              <button className="btn3">MMA</button>
+            </p>
+            <p>
+              <button className="btn3">Boxing
+
+              </button>
+            </p>
+            <p>
+              <button className="btn3">Casual
+
+              </button>
+            </p>
+            <p>
+              <button className="btn3">Fitness
+
+          </button></p>
         </Col>
+        
         <Col>
           Follow us
           <hr/>
-          <p><Facebook/></p>
+          <p><Col className = "btn3"><Facebook/></Col></p>
 
         </Col>
         <Col>
           Support
           <hr/>
-          <p>Payment</p>
-          <p>Shipping policy</p>
-          <p>Return&Refund Policy</p>
-          <p>Terms & Conditions</p>
-          <p>Privacy Policy</p>
-          <p>Contact Us</p>
+          <p><Col className = "btn3">Payment</Col></p>
+          <p><Col className = "btn3">Shipping policy</Col></p>
+          <p><Col className = "btn3">Return&Refund Policy</Col></p>
+          <p><Col className = "btn3">Terms & Conditions</Col></p>
+          <p><Col className = "btn3">Privacy Policy</Col></p>
+          <p><Col className = "btn3">Contact Us</Col></p>
         </Col>
         <Col>
           CONTACT US
           <hr/>
-          <p>WhatsApp: +86 13528501617</p>
-          <p>Email: info@fluory.com</p>
+          <p><Col className = "btn3">WhatsApp: +86 13528501617</Col></p>
+          <p><Col className = "btn3">Email: info@fluory.com</Col></p>
         </Col>
       </Row>
     </Container>

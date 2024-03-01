@@ -38,6 +38,56 @@
   border:none;
 }
 
+.btn3{
+  background-color: transparent;
+  font-size:90%;
+  color: gray;
+  outline: none;
+  border:none;
+}
+
+.btn3:hover{
+  color: white;
+  transition: color 0.3s ease;
+  cursor:pointer;
+}
+
+.buttonName{
+  position:absolute;
+text-align: center;
+  font-size:50%;
+  left:140px;
+  bottom:330px;
+}
+
+.buttonName2{
+  position:absolute;
+  text-align: center;
+  font-size:50%;
+  left:520px;
+  bottom:330px;
+}
+
+.buttonName3{
+  position:absolute;
+  text-align: center;
+  font-size:50%;
+  left:870px;
+  bottom:330px;
+}
+
+.yellow{
+  color:#fcb814;
+  font-size:50%;
+}
+
+.yellow2{
+  color:#fcb814;
+
+}
+
+
+
 .btn2:hover {
   color:white;
   filter:brightness(80%);
@@ -136,7 +186,7 @@ color:white;
   margin-top:-8px;
   margin-bottom:-8px;
   padding-bottom:720px;
-  background-color:#ffd748;
+  background-color:#fcb814;
 }
 
 .shopItems{
@@ -145,4 +195,10 @@ color:white;
   right: 150px;
   background-color:transparent;
   border:none;
+}
+
+.imagebackground{
+  background-color:white;
+  padding-top:80px;
+
 }
