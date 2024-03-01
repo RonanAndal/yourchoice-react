@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
-import { Container, Nav, Row, Col, Image, Navbar } from 'react-bootstrap';
-import { Search, Cart, List, ArrowRightShort, ArrowLeftShort, Pause } from 'react-bootstrap-icons';
+import { Container, Button, Nav, Row, Col, Image, Navbar } from 'react-bootstrap';
+import { Search, Cart, List, ArrowRightShort, ArrowLeftShort, Pause, Facebook } from 'react-bootstrap-icons';
 
 const TopMenu = () => (
   <Navbar bg = 'black' expand = 'lg'>
@@ -59,13 +59,88 @@ const Buttons = () => (
 
 const CenterText2 = () => (
 
-    <text className = "whitebackground">
-      
-    </text>
+  <Col className = "b">
+    <h1>
+      <Col className="text-center"><p>Looking for OEM?</p></Col>
 
+
+      <h2 className="OEM">
+        <Col className="text-center">
+          <p>We're not only develop our own products,
+            we also accept OEM orders. If you are running
+            your own brand and looking for manufacturer,</p>
+          <p>we're here to help! Please don't hesitate to contact us: info@fluory.com or Quick inquiry</p>
+        </Col>
+      </h2>
+
+    </h1>
+  </Col>
 );
 
-const IslandSnow = () => (
+const Shop = () => (
+  <Col className = "background">
+<p>. </p>
+  </Col>
+)
+
+const Shop2 = () => (
+
+  <h1>
+
+    <button className="shopItems">
+
+      <button className='btn2'><Image src="https://www.fluory.com/cdn/shop/collections/MTSF19_900x.jpg?v=1555005991" width='350px'/></button>
+      <button className='btn2'><Image src = "https://www.fluory.com/cdn/shop/collections/rashguard_900x.jpg?v=1555006364" width = '350px'/></button>
+      <button className='btn2'><Image src = "https://www.fluory.com/cdn/shop/products/Koifish_900x.jpg?v=1561218336" width = '350px'/></button>
+
+    </button>
+  </h1>
+
+)
+
+const FooterMenu = () => (
+  <footer className="py-3">
+    <Container>
+      <Row>
+        <Col>
+          Site Map
+          <hr/>
+          <p>About Fluory</p>
+          <p>Muay Thai</p>
+          <p>Jiu-Jitsu</p>
+          <p>MMA</p>
+          <p>Boxing</p>
+          <p>Casual</p>
+          <p>Fitness</p>
+        </Col>
+        <Col>
+          Follow us
+          <hr/>
+          <p><Facebook/></p>
+
+        </Col>
+        <Col>
+          Support
+          <hr/>
+          <p>Payment</p>
+          <p>Shipping policy</p>
+          <p>Return&Refund Policy</p>
+          <p>Terms & Conditions</p>
+          <p>Privacy Policy</p>
+          <p>Contact Us</p>
+        </Col>
+        <Col>
+          CONTACT US
+          <hr/>
+          <p>WhatsApp: +86 13528501617</p>
+          <p>Email: info@fluory.com</p>
+        </Col>
+      </Row>
+    </Container>
+  </footer>
+);
+
+const Fluory = () => (
   <>
     <TopMenu/>
     <SecondMenu/>
@@ -73,7 +148,11 @@ const IslandSnow = () => (
     <CenterText/>
     <Buttons/>
     <CenterText2/>
+    <Shop/>
+    <Shop2/>
+    <FooterMenu/>
+
   </>
 );
 
-ReactDOM.render(<IslandSnow/>, document.getElementById('root'));
+ReactDOM.render(<Fluory/>, document.getElementById('root'));

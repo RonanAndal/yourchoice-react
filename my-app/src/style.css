@@ -30,6 +30,22 @@
   margin-right: 1px;
 }
 
+.btn2{
+  background-color: transparent;
+  color: black;
+  outline: none;
+
+  border:none;
+}
+
+.btn2:hover {
+  color:white;
+  filter:brightness(80%);
+  transition: filter 0.3s ease;
+  cursor:pointer;
+
+}
+
 
 
 
@@ -93,6 +109,40 @@
   position: absolute;
   bottom: -33px;
   right: 1130px;
+  background-color:transparent;
+  border:none;
+}
+
+.OEM{
+  font-size:40%;
+}
+
+.b{
+  position:absolute;
+  background-color: white;
+  left:159px;
+  top:900px;
+  padding: 35px;
+
+}
+
+.py-3{
+  background-color:black;
+color:white;
+ padding-top:300px;
+}
+
+.background{
+  margin-top:-8px;
+  margin-bottom:-8px;
+  padding-bottom:720px;
+  background-color:#ffd748;
+}
+
+.shopItems{
+  position: absolute;
+  bottom: -920px;
+  right: 150px;
   background-color:transparent;
   border:none;
 }
